@@ -4,17 +4,17 @@ function PopUpSuricato() {
 function PopUpArmadillo() {
 	return "Soy un armadillo";
 }
-function PopUpSuricato() {
-	return "Soy un suricato";
+function PopUpPentauro() {
+	return "Soy un pentauro del az\u00FAcar";
 }
-function PopUpSuricato() {
-	return "Soy un suricato";
+function PopUpQuokka() {
+	return "Soy un quokka";
 }
-function PopUpSuricato() {
-	return "Soy un suricato";
+function PopUpErizo() {
+	return "Soy un erizo europeo";
 }
-function PopUpSuricato() {
-	return "Soy un suricato";
+function PopUpPanda() {
+	return "Soy un panda rojo";
 }
 
 function desaparece(nombre) {

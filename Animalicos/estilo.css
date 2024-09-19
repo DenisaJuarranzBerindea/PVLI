@@ -40,6 +40,15 @@ section {
     padding: 20px;
 }
 
+section table tr th img {
+    height: 200px;
+}
+
+section table tr th button {
+
+
+}
+
 footer {
     background-color: #333;
     color: #fff;
