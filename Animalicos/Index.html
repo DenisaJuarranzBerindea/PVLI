@@ -1,3 +1,6 @@
+<!--Denisa Juarranz Berindea-->
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,11 +19,11 @@
     <nav>
         <ul>
             <li><a href="#">Inicio</a></li>
-            <li><a href="#">África</a></li>
-            <li><a href="#">América</a></li>
-            <li><a href="#">Asia</a></li>
-            <li><a href="#">Australia</a></li>
-            <li><a href="#">Europa</a></li>
+            <li><a>África</a></li>
+            <li><a>América</a></li>
+            <li><a>Asia</a></li>
+            <li><a>Australia</a></li>
+            <li><a>Europa</a></li>
 
         </ul>
     </nav>
@@ -61,22 +64,43 @@
                     <button onclick="alert(PopUpPanda())">Descubre más sobre mí</button>
                 </th>
             </tr>
-
-
         </table>
 
-
-        <h2>Lorem Ipsum Patata patata patata</h2>
+        <h2>Descubramos de dónde es cada animal</h2>
         <div>
-            <h3>Azuuuuul</h3>
-            <p>Patata patata patata</p>
-            </br>
-            </br></br></br></br></br>
+            <ul>
+                <li><button onclick="document.getElementById('africa').style.visibility='hidden'"> África </button></li>
+                <li><button onclick="document.getElementById('america').style.color='red'"> América </button></li>
+                <li><button onclick="alert(PopUpAsia())"> Asia </button></li>
+                <li><button onclick="document.getElementById('australia').style.backgroundColor='green'"> Australia </button></li>
+                <li><button onclick="document.getElementById('europa').style.color='blue'"> Europa </button></li>
+            </ul>
+
+            <br>
+            <br>
+
+            <ul>
+                <li id="africa">Suricato</li>
+                <li id="america">Armadillo</li>
+                <li>Pentauro del azúcar</li>
+                <li id="australia">Quokka</li>
+                <li id="europa">Erizo</li>
+                <li>Panda rojo</li>
+            </ul>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 PVLI Denisa Juarranz Berindea. Todos los derechos reservados.</p>
+        <p>&copy; 2024 PVLI Denisa Juarranz Berindea.</p>
     </footer>
 </body>
 </html>

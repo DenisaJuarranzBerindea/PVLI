@@ -17,7 +17,24 @@ function PopUpPanda() {
 	return "Soy un panda rojo";
 }
 
+function PopUpAsia() {
+	return "De Asia vienen el Pentauro del az\u00FAcar y el panda rojo";
+}
+
 function desaparece(nombre) {
+	var button = document.getElementById(nombre).style.visibility = 'hidden';
+}
+
+function aparece(nombre) {
+	var button = document.getElementById(nombre).style.visibility = 'visible';
+}
+
+function boton(nombre) {
 	var button = document.getElementById(nombre);
-  button.style.visibility='hidden';
+	if (button.style.visibility == 'hidden') {
+		button.style.visibility == 'visible';
+	}
+	else {
+		button.style.visibility == 'hidden'
+	}
 }
